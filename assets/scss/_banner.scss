@@ -1,0 +1,177 @@
+.banner {
+  @include tablet {
+    background-color: #030303;
+  }
+  .big-content {
+    @include tablet {
+      display: flex;
+      justify-content: space-between;
+    }
+    h1 {
+      background-color: #030303;
+      text-align: center;
+      padding: 30px 0;
+      margin: 0;
+      @include tablet {
+        width: 50%;
+        padding: 110px 0 0;
+      }
+      img {
+        width: 150px;
+        @include tablet {
+          width: 220px;
+        }
+        @include tablet {
+          width: 260px;
+        }
+      }
+    }
+  }
+  .cta-banner {
+    background-color: #030303;
+    padding: 0 10px;
+    display: flex;
+    @include tablet {
+      display: block;
+    }
+    .clock1 {
+      height: 300px;
+      @include tablet {
+        display: none;
+      }
+      img {
+        width: 110%;
+        margin-top: -10px;
+      }
+    }
+    .cta {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      @include tablet {
+        flex-direction: row;
+        padding: 0 20px;
+        margin-top: -40px;
+      }
+      @include desktop {
+        flex-direction: row;
+        padding: 0 80px;
+        margin-top: -80px;
+      }
+      .slogan {
+        color: #fff;
+        text-transform: uppercase;
+        text-align: end;
+        @include tablet {
+          order: 2;
+        }
+        span {
+          display: block;
+          &:first-child {
+            font-size: 50px;
+            @include tablet {
+              font-size: 63px;
+            }
+            @include desktop {
+              font-size: 75px;
+            }
+          }
+          &:last-child {
+            margin-top: -30px;
+            font-size: 30px;
+            font-family: "Architects Daughter", cursive;
+            @include tablet {
+              margin-top: -35px;
+              font-size: 43px;
+            }
+            @include desktop {
+              margin-top: -40px;
+              font-size: 45px;
+            }
+          }
+        }
+      }
+      .cta-content {
+        @include tablet {
+          order: 1;
+          display: flex;
+        }
+        .content1 {
+          img {
+            width: 24px;
+            margin-bottom: 10px;
+            @include tablet {
+              width: 30px;
+            }
+            @include desktop {
+              width: 68px;
+            }
+          }
+          button {
+            border: 0;
+            outline: none;
+            color: #000;
+            font-size: 12px;
+            border-radius: 50px;
+            background-color: #d2ae6d;
+            width: 124px;
+            padding: 5px;
+            cursor: pointer;
+            @include tablet {
+              width: 200px;
+              font-size: 15px;
+            }
+            @include desktop {
+              width: 240px;
+              font-size: 18px;
+              padding: 7px;
+            }
+            &:hover {
+              background-color: #a88a52;
+            }
+            &:focus,
+            &:focus-visible {
+              border: 0;
+              outline: none;
+            }
+          }
+          p {
+            font-size: 10px;
+            color: #ffffff;
+            margin: 10px 0 5px;
+            @include tablet {
+              font-size: 17px;
+            }
+            a {
+              font-size: 18px;
+              color: #ffffff;
+              font-family: "Architects Daughter", cursive;
+              @include tablet {
+                font-size: 24px;
+              }
+            }
+          }
+        }
+        .content2 {
+          display: none;
+          @include tablet {
+            display: block;
+          }
+          img {
+            @include tablet {
+              width: 208px;
+              margin-top: -180px;
+              margin-left: 4px;
+            }
+            @include desktop {
+              width: 270px;
+              margin-top: -180px;
+              margin-left: 150px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

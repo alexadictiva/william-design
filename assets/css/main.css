@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    background-color: #030303;
+  }
+}
+@media screen and (min-width: 768px) {
+  .banner .big-content {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.banner .big-content h1 {
+  background-color: #030303;
+  text-align: center;
+  padding: 30px 0;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .banner .big-content h1 {
+    width: 50%;
+    padding: 110px 0 0;
+  }
+}
+.banner .big-content h1 img {
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .banner .big-content h1 img {
+    width: 220px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .banner .big-content h1 img {
+    width: 260px;
+  }
+}
+.banner .cta-banner {
+  background-color: #030303;
+  padding: 0 10px;
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .banner .cta-banner {
+    display: block;
+  }
+}
+.banner .cta-banner .clock1 {
+  height: 300px;
+}
+@media screen and (min-width: 768px) {
+  .banner .cta-banner .clock1 {
+    display: none;
+  }
+}
+.banner .cta-banner .clock1 img {
+  width: 110%;
+  margin-top: -10px;
+}
+.banner .cta-banner .cta {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .banner .cta-banner .cta {
+    flex-direction: row;
+    padding: 0 20px;
+    margin-top: -40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner .cta-banner .cta {
+    flex-direction: row;
+    padding: 0 80px;
+    margin-top: -80px;
+  }
+}
+.banner .cta-banner .cta .slogan {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: end;
+}
+@media screen and (min-width: 768px) {
+  .banner .cta-banner .cta .slogan {
+    order: 2;
+  }
+}
+.banner .cta-banner .cta .slogan span {
+  display: block;
+}
+.banner .cta-banner .cta .slogan span:first-child {
+  font-size: 50px;
+}
+@media screen and (min-width: 768px) {
+  .banner .cta-banner .cta .slogan span:first-child {
+    font-size: 63px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner .cta-banner .cta .slogan span:first-child {
+    font-size: 75px;
+  }
+}
+.banner .cta-banner .cta .slogan span:last-child {
+  margin-top: -30px;
+  font-size: 30px;
+  font-family: "Architects Daughter", cursive;
+}
+@media screen and (min-width: 768px) {
+  .banner .cta-banner .cta .slogan span:last-child {
+    margin-top: -35px;
+    font-size: 43px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner .cta-banner .cta .slogan span:last-child {
+    margin-top: -40px;
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .banner .cta-banner .cta .cta-content {
+    order: 1;
+    display: flex;
+  }
+}
+.banner .cta-banner .cta .cta-content .content1 img {
+  width: 24px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .banner .cta-banner .cta .cta-content .content1 img {
+    width: 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner .cta-banner .cta .cta-content .content1 img {
+    width: 68px;
+  }
+}
+.banner .cta-banner .cta .cta-content .content1 button {
+  border: 0;
+  outline: none;
+  color: #000;
+  font-size: 12px;
+  border-radius: 50px;
+  background-color: #d2ae6d;
+  width: 124px;
+  padding: 5px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .banner .cta-banner .cta .cta-content .content1 button {
+    width: 200px;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner .cta-banner .cta .cta-content .content1 button {
+    width: 240px;
+    font-size: 18px;
+    padding: 7px;
+  }
+}
+.banner .cta-banner .cta .cta-content .content1 button:hover {
+  background-color: #a88a52;
+}
+.banner .cta-banner .cta .cta-content .content1 button:focus, .banner .cta-banner .cta .cta-content .content1 button:focus-visible {
+  border: 0;
+  outline: none;
+}
+.banner .cta-banner .cta .cta-content .content1 p {
+  font-size: 10px;
+  color: #ffffff;
+  margin: 10px 0 5px;
+}
+@media screen and (min-width: 768px) {
+  .banner .cta-banner .cta .cta-content .content1 p {
+    font-size: 17px;
+  }
+}
+.banner .cta-banner .cta .cta-content .content1 p a {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Architects Daughter", cursive;
+}
+@media screen and (min-width: 768px) {
+  .banner .cta-banner .cta .cta-content .content1 p a {
+    font-size: 24px;
+  }
+}
+.banner .cta-banner .cta .cta-content .content2 {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .banner .cta-banner .cta .cta-content .content2 {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .banner .cta-banner .cta .cta-content .content2 img {
+    width: 208px;
+    margin-top: -180px;
+    margin-left: 4px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner .cta-banner .cta .cta-content .content2 img {
+    width: 270px;
+    margin-top: -180px;
+    margin-left: 150px;
+  }
+}
