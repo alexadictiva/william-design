@@ -1,0 +1,365 @@
+.section1 {
+  background-color: #030303;
+  .section1-container {
+    @include tablet {
+      display: flex;
+      align-items: end;
+    }
+    @include biggest-desktop {
+      max-width: 1500px;
+      margin: auto;
+    }
+    .content1 {
+      padding: 10px 20px;
+
+      @include tablet {
+        padding: 10px 20px 40px;
+        width: 60%;
+      }
+      aside {
+        padding-top: 70px;
+        padding-left: 10px;
+        border-left: #d2ae6d solid 9px;
+        h2 {
+          margin-bottom: 20px;
+
+          color: #fff;
+          font-family: "Architects Daughter", cursive;
+          font-size: 30px;
+          @include tablet {
+            font-size: 40px;
+          }
+          @include desktop {
+            font-size: 60px;
+          }
+        }
+        p {
+          color: #fff;
+          font-size: 15px;
+          @include tablet {
+            font-size: 20px;
+          }
+          @include desktop {
+            font-size: 35px;
+          }
+        }
+      }
+    }
+    .content2 {
+      text-align: center;
+      @include tablet {
+        width: 40%;
+        background-image: url(/assets/img/bg2.svg);
+        padding: 40px 0;
+      }
+
+      img {
+        width: 197px;
+        @include tablet {
+          width: 230px;
+        }
+        @include desktop {
+          width: 300px;
+        }
+      }
+    }
+  }
+}
+.section2 {
+  .container2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    @include tablet {
+      flex-direction: row;
+    }
+    @include biggest-desktop {
+      max-width: 1500px;
+      margin: auto;
+    }
+    .content1 {
+      display: flex;
+      justify-content: center;
+      background: linear-gradient(to Right, white 50%, black 50%);
+      @include tablet {
+        display: none;
+      }
+      picture {
+        width: 50%;
+        &:last-child {
+          background-color: black;
+        }
+      }
+    }
+    .content2 {
+      display: flex;
+      justify-content: center;
+      background: linear-gradient(to Right, black 50%, white 50%);
+      @include tablet {
+        display: none;
+      }
+    }
+    .content3 {
+      display: none;
+      @include tablet {
+        display: flex;
+        background: linear-gradient(
+          to right,
+          white 0%,
+          white 33%,
+          black 33%,
+          black 66%,
+          white 66%,
+          white 100%
+        );
+        justify-content: space-evenly;
+        width: 100%;
+      }
+    }
+  }
+}
+.section3 {
+  background-color: #242424;
+  @include tablet {
+    background-color: #030303;
+  }
+  .content {
+    @include desktop {
+      display: flex;
+    }
+    @include biggest-desktop {
+      max-width: 1500px;
+      margin: auto;
+    }
+    .content1 {
+      @include desktop {
+        order: 2;
+        width: 50%;
+      }
+    }
+    .content2 {
+      padding: 60px 35px 10px;
+      @include desktop {
+        order: 1;
+        width: 50%;
+        padding: 60px 35px 10px 130px;
+      }
+      h2 {
+        color: #fff;
+        font-family: "Architects Daughter", cursive;
+        font-size: 50px;
+        line-height: 48px;
+        margin-bottom: 40px;
+        @include desktop {
+          width: 290px;
+        }
+      }
+      hr {
+        border: #d2ae6d solid 2px;
+        margin: -27px 0 40px;
+        width: 30%;
+      }
+      p {
+        color: #fff;
+        font-size: 18px;
+        margin: 0;
+        @include desktop {
+          width: 290px;
+        }
+      }
+    }
+  }
+}
+.section4 {
+  @include biggest-desktop {
+    background-image: url(/assets/img/bg2.svg);
+    background-color: #000;
+  }
+  .content {
+    background-image: url(/assets/img/bg4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    @include tablet {
+      gap: 15px;
+    }
+    @include desktop {
+      background-image: url(/assets/img/bg2.svg);
+      background-color: #000;
+    }
+    @include biggest-desktop {
+      background-image: none;
+      background-color: transparent;
+      max-width: 1500px;
+      margin: auto;
+    }
+    .variante {
+      display: none;
+      @include tablet {
+        display: inline-block;
+      }
+    }
+  }
+}
+.section5 {
+  position: relative;
+  @include tablet {
+    display: none;
+  }
+  div {
+    position: absolute;
+    top: 30px;
+    right: 25px;
+    .logo {
+      width: 110px;
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: #fff;
+      font-family: "Architects Daughter", cursive;
+      font-size: 50px;
+      line-height: 40px;
+      width: 187px;
+      text-align: end;
+
+      span {
+        display: inline-block;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+.section6 {
+  background-color: #fff;
+  .content {
+    padding: 20px;
+    @include tablet {
+      display: flex;
+    }
+
+    @include biggest-desktop {
+      max-width: 1500px;
+      margin: auto;
+    }
+    .content1 {
+      @include tablet {
+        width: 100%;
+      }
+      @include desktop {
+        padding: 30px 0 30px 30px;
+      }
+      h2 {
+        font-family: "Architects Daughter", cursive;
+        @include desktop {
+          font-size: 50px;
+          line-height: 50px;
+        }
+        br {
+          display: none;
+          @include tablet {
+            display: block;
+          }
+        }
+      }
+      p {
+        font-size: 20px;
+        margin-bottom: 40px;
+        @include tablet {
+          font-size: 25px;
+          margin-bottom: 10px;
+        }
+        @include desktop {
+          font-size: 30px;
+          margin-top: 10px;
+          margin-bottom: 20px;
+        }
+      }
+      .cta {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+        @include tablet {
+          display: flex;
+        }
+
+        .warranty {
+          margin: 25px 0 5px 0;
+          width: 60px;
+          @include desktop {
+            margin: 40px 0 5px 0;
+            width: 120px;
+          }
+        }
+        .carrito {
+          margin: 25px 0 5px 0;
+          width: 60px;
+          @include desktop {
+            width: 77px;
+          }
+        }
+        p {
+          font-size: 12px;
+          @include desktop {
+            font-size: 18px;
+          }
+        }
+        a {
+          background-color: #000;
+          display: inline-block;
+          font-size: 20px;
+          padding: 3px 25px;
+          border-radius: 50px;
+          color: #fff;
+          @include desktop {
+            font-size: 30px;
+          }
+          &:hover {
+            text-decoration: none;
+            background-color: #3b3a3a;
+          }
+        }
+      }
+    }
+    .content2 {
+      .mockup {
+        @include desktop {
+          width: 562px;
+        }
+      }
+      .cta {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include tablet {
+          display: none;
+        }
+        .carrito,
+        .warranty {
+          margin: 35px 0 15px 0;
+          width: 60px;
+        }
+        p {
+          font-size: 12px;
+        }
+        a {
+          background-color: #000;
+          display: inline-block;
+          font-size: 20px;
+          padding: 3px 25px;
+          border-radius: 50px;
+          color: #fff;
+          &:hover {
+            text-decoration: none;
+            background-color: #3b3a3a;
+          }
+        }
+      }
+    }
+  }
+}

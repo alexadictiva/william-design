@@ -22,143 +22,149 @@ img {
     background-color: #030303;
   }
 }
+@media screen and (min-width: 1660px) {
+  .banner .more-big-content {
+    max-width: 1500px;
+    margin: auto;
+  }
+}
 @media screen and (min-width: 768px) {
-  .banner .big-content {
+  .banner .more-big-content .big-content {
     display: flex;
     justify-content: space-between;
   }
 }
-.banner .big-content h1 {
+.banner .more-big-content .big-content h1 {
   background-color: #030303;
   text-align: center;
   padding: 30px 0;
   margin: 0;
 }
 @media screen and (min-width: 768px) {
-  .banner .big-content h1 {
+  .banner .more-big-content .big-content h1 {
     width: 50%;
     padding: 110px 0 0;
   }
 }
-.banner .big-content h1 img {
+.banner .more-big-content .big-content h1 img {
   width: 150px;
 }
 @media screen and (min-width: 768px) {
-  .banner .big-content h1 img {
+  .banner .more-big-content .big-content h1 img {
     width: 220px;
   }
 }
 @media screen and (min-width: 768px) {
-  .banner .big-content h1 img {
+  .banner .more-big-content .big-content h1 img {
     width: 260px;
   }
 }
-.banner .cta-banner {
+.banner .more-big-content .cta-banner {
   background-color: #030303;
   padding: 0 10px;
   display: flex;
 }
 @media screen and (min-width: 768px) {
-  .banner .cta-banner {
+  .banner .more-big-content .cta-banner {
     display: block;
   }
 }
-.banner .cta-banner .clock1 {
+.banner .more-big-content .cta-banner .clock1 {
   height: 300px;
 }
 @media screen and (min-width: 768px) {
-  .banner .cta-banner .clock1 {
+  .banner .more-big-content .cta-banner .clock1 {
     display: none;
   }
 }
-.banner .cta-banner .clock1 img {
+.banner .more-big-content .cta-banner .clock1 img {
   width: 110%;
   margin-top: -10px;
 }
-.banner .cta-banner .cta {
+.banner .more-big-content .cta-banner .cta {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 @media screen and (min-width: 768px) {
-  .banner .cta-banner .cta {
+  .banner .more-big-content .cta-banner .cta {
     flex-direction: row;
     padding: 0 20px;
     margin-top: -40px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .banner .cta-banner .cta {
+  .banner .more-big-content .cta-banner .cta {
     flex-direction: row;
     padding: 0 80px;
     margin-top: -80px;
   }
 }
-.banner .cta-banner .cta .slogan {
+.banner .more-big-content .cta-banner .cta .slogan {
   color: #fff;
   text-transform: uppercase;
   text-align: end;
 }
 @media screen and (min-width: 768px) {
-  .banner .cta-banner .cta .slogan {
+  .banner .more-big-content .cta-banner .cta .slogan {
     order: 2;
   }
 }
-.banner .cta-banner .cta .slogan span {
+.banner .more-big-content .cta-banner .cta .slogan span {
   display: block;
 }
-.banner .cta-banner .cta .slogan span:first-child {
+.banner .more-big-content .cta-banner .cta .slogan span:first-child {
   font-size: 50px;
 }
 @media screen and (min-width: 768px) {
-  .banner .cta-banner .cta .slogan span:first-child {
+  .banner .more-big-content .cta-banner .cta .slogan span:first-child {
     font-size: 63px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .banner .cta-banner .cta .slogan span:first-child {
+  .banner .more-big-content .cta-banner .cta .slogan span:first-child {
     font-size: 75px;
   }
 }
-.banner .cta-banner .cta .slogan span:last-child {
+.banner .more-big-content .cta-banner .cta .slogan span:last-child {
   margin-top: -30px;
   font-size: 30px;
   font-family: "Architects Daughter", cursive;
 }
 @media screen and (min-width: 768px) {
-  .banner .cta-banner .cta .slogan span:last-child {
+  .banner .more-big-content .cta-banner .cta .slogan span:last-child {
     margin-top: -35px;
     font-size: 43px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .banner .cta-banner .cta .slogan span:last-child {
+  .banner .more-big-content .cta-banner .cta .slogan span:last-child {
     margin-top: -40px;
     font-size: 45px;
   }
 }
 @media screen and (min-width: 768px) {
-  .banner .cta-banner .cta .cta-content {
+  .banner .more-big-content .cta-banner .cta .cta-content {
     order: 1;
     display: flex;
   }
 }
-.banner .cta-banner .cta .cta-content .content1 img {
+.banner .more-big-content .cta-banner .cta .cta-content .content1 img {
   width: 24px;
   margin-bottom: 10px;
 }
 @media screen and (min-width: 768px) {
-  .banner .cta-banner .cta .cta-content .content1 img {
+  .banner .more-big-content .cta-banner .cta .cta-content .content1 img {
     width: 30px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .banner .cta-banner .cta .cta-content .content1 img {
+  .banner .more-big-content .cta-banner .cta .cta-content .content1 img {
     width: 68px;
   }
 }
-.banner .cta-banner .cta .cta-content .content1 button {
+.banner .more-big-content .cta-banner .cta .cta-content .content1 button {
   border: 0;
   outline: none;
   color: #000;
@@ -170,64 +176,491 @@ img {
   cursor: pointer;
 }
 @media screen and (min-width: 768px) {
-  .banner .cta-banner .cta .cta-content .content1 button {
+  .banner .more-big-content .cta-banner .cta .cta-content .content1 button {
     width: 200px;
     font-size: 15px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .banner .cta-banner .cta .cta-content .content1 button {
+  .banner .more-big-content .cta-banner .cta .cta-content .content1 button {
     width: 240px;
     font-size: 18px;
     padding: 7px;
   }
 }
-.banner .cta-banner .cta .cta-content .content1 button:hover {
+.banner .more-big-content .cta-banner .cta .cta-content .content1 button:hover {
   background-color: #a88a52;
 }
-.banner .cta-banner .cta .cta-content .content1 button:focus, .banner .cta-banner .cta .cta-content .content1 button:focus-visible {
+.banner .more-big-content .cta-banner .cta .cta-content .content1 button:focus, .banner .more-big-content .cta-banner .cta .cta-content .content1 button:focus-visible {
   border: 0;
   outline: none;
 }
-.banner .cta-banner .cta .cta-content .content1 p {
+.banner .more-big-content .cta-banner .cta .cta-content .content1 p {
   font-size: 10px;
   color: #ffffff;
   margin: 10px 0 5px;
 }
 @media screen and (min-width: 768px) {
-  .banner .cta-banner .cta .cta-content .content1 p {
+  .banner .more-big-content .cta-banner .cta .cta-content .content1 p {
     font-size: 17px;
   }
 }
-.banner .cta-banner .cta .cta-content .content1 p a {
+.banner .more-big-content .cta-banner .cta .cta-content .content1 p a {
   font-size: 18px;
   color: #ffffff;
   font-family: "Architects Daughter", cursive;
 }
 @media screen and (min-width: 768px) {
-  .banner .cta-banner .cta .cta-content .content1 p a {
+  .banner .more-big-content .cta-banner .cta .cta-content .content1 p a {
     font-size: 24px;
   }
 }
-.banner .cta-banner .cta .cta-content .content2 {
+.banner .more-big-content .cta-banner .cta .cta-content .content2 {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  .banner .cta-banner .cta .cta-content .content2 {
+  .banner .more-big-content .cta-banner .cta .cta-content .content2 {
     display: block;
   }
 }
 @media screen and (min-width: 768px) {
-  .banner .cta-banner .cta .cta-content .content2 img {
+  .banner .more-big-content .cta-banner .cta .cta-content .content2 img {
     width: 208px;
     margin-top: -180px;
     margin-left: 4px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .banner .cta-banner .cta .cta-content .content2 img {
+  .banner .more-big-content .cta-banner .cta .cta-content .content2 img {
     width: 270px;
     margin-top: -180px;
     margin-left: 150px;
   }
+}
+
+.section1 {
+  background-color: #030303;
+}
+@media screen and (min-width: 768px) {
+  .section1 .section1-container {
+    display: flex;
+    align-items: end;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .section1 .section1-container {
+    max-width: 1500px;
+    margin: auto;
+  }
+}
+.section1 .section1-container .content1 {
+  padding: 10px 20px;
+}
+@media screen and (min-width: 768px) {
+  .section1 .section1-container .content1 {
+    padding: 10px 20px 40px;
+    width: 60%;
+  }
+}
+.section1 .section1-container .content1 aside {
+  padding-top: 70px;
+  padding-left: 10px;
+  border-left: #d2ae6d solid 9px;
+}
+.section1 .section1-container .content1 aside h2 {
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: "Architects Daughter", cursive;
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .section1 .section1-container .content1 aside h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section1 .section1-container .content1 aside h2 {
+    font-size: 60px;
+  }
+}
+.section1 .section1-container .content1 aside p {
+  color: #fff;
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .section1 .section1-container .content1 aside p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section1 .section1-container .content1 aside p {
+    font-size: 35px;
+  }
+}
+.section1 .section1-container .content2 {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .section1 .section1-container .content2 {
+    width: 40%;
+    background-image: url(/assets/img/bg2.svg);
+    padding: 40px 0;
+  }
+}
+.section1 .section1-container .content2 img {
+  width: 197px;
+}
+@media screen and (min-width: 768px) {
+  .section1 .section1-container .content2 img {
+    width: 230px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section1 .section1-container .content2 img {
+    width: 300px;
+  }
+}
+
+.section2 .container2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .section2 .container2 {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .section2 .container2 {
+    max-width: 1500px;
+    margin: auto;
+  }
+}
+.section2 .container2 .content1 {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to Right, white 50%, black 50%);
+}
+@media screen and (min-width: 768px) {
+  .section2 .container2 .content1 {
+    display: none;
+  }
+}
+.section2 .container2 .content1 picture {
+  width: 50%;
+}
+.section2 .container2 .content1 picture:last-child {
+  background-color: black;
+}
+.section2 .container2 .content2 {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to Right, black 50%, white 50%);
+}
+@media screen and (min-width: 768px) {
+  .section2 .container2 .content2 {
+    display: none;
+  }
+}
+.section2 .container2 .content3 {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .section2 .container2 .content3 {
+    display: flex;
+    background: linear-gradient(to right, white 0%, white 33%, black 33%, black 66%, white 66%, white 100%);
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}
+
+.section3 {
+  background-color: #242424;
+}
+@media screen and (min-width: 768px) {
+  .section3 {
+    background-color: #030303;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section3 .content {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .section3 .content {
+    max-width: 1500px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section3 .content .content1 {
+    order: 2;
+    width: 50%;
+  }
+}
+.section3 .content .content2 {
+  padding: 60px 35px 10px;
+}
+@media screen and (min-width: 1024px) {
+  .section3 .content .content2 {
+    order: 1;
+    width: 50%;
+    padding: 60px 35px 10px 130px;
+  }
+}
+.section3 .content .content2 h2 {
+  color: #fff;
+  font-family: "Architects Daughter", cursive;
+  font-size: 50px;
+  line-height: 48px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1024px) {
+  .section3 .content .content2 h2 {
+    width: 290px;
+  }
+}
+.section3 .content .content2 hr {
+  border: #d2ae6d solid 2px;
+  margin: -27px 0 40px;
+  width: 30%;
+}
+.section3 .content .content2 p {
+  color: #fff;
+  font-size: 18px;
+  margin: 0;
+}
+@media screen and (min-width: 1024px) {
+  .section3 .content .content2 p {
+    width: 290px;
+  }
+}
+
+@media screen and (min-width: 1660px) {
+  .section4 {
+    background-image: url(/assets/img/bg2.svg);
+    background-color: #000;
+  }
+}
+.section4 .content {
+  background-image: url(/assets/img/bg4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+@media screen and (min-width: 768px) {
+  .section4 .content {
+    gap: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section4 .content {
+    background-image: url(/assets/img/bg2.svg);
+    background-color: #000;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .section4 .content {
+    background-image: none;
+    background-color: transparent;
+    max-width: 1500px;
+    margin: auto;
+  }
+}
+.section4 .content .variante {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .section4 .content .variante {
+    display: inline-block;
+  }
+}
+
+.section5 {
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .section5 {
+    display: none;
+  }
+}
+.section5 div {
+  position: absolute;
+  top: 30px;
+  right: 25px;
+}
+.section5 div .logo {
+  width: 110px;
+  margin-bottom: 30px;
+}
+.section5 div h2 {
+  color: #fff;
+  font-family: "Architects Daughter", cursive;
+  font-size: 50px;
+  line-height: 40px;
+  width: 187px;
+  text-align: end;
+}
+.section5 div h2 span {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.section6 {
+  background-color: #fff;
+}
+.section6 .content {
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .section6 .content {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .section6 .content {
+    max-width: 1500px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section6 .content .content1 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section6 .content .content1 {
+    padding: 30px 0 30px 30px;
+  }
+}
+.section6 .content .content1 h2 {
+  font-family: "Architects Daughter", cursive;
+}
+@media screen and (min-width: 1024px) {
+  .section6 .content .content1 h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+.section6 .content .content1 h2 br {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .section6 .content .content1 h2 br {
+    display: block;
+  }
+}
+.section6 .content .content1 p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .section6 .content .content1 p {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section6 .content .content1 p {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+.section6 .content .content1 .cta {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .section6 .content .content1 .cta {
+    display: flex;
+  }
+}
+.section6 .content .content1 .cta .warranty {
+  margin: 25px 0 5px 0;
+  width: 60px;
+}
+@media screen and (min-width: 1024px) {
+  .section6 .content .content1 .cta .warranty {
+    margin: 40px 0 5px 0;
+    width: 120px;
+  }
+}
+.section6 .content .content1 .cta .carrito {
+  margin: 25px 0 5px 0;
+  width: 60px;
+}
+@media screen and (min-width: 1024px) {
+  .section6 .content .content1 .cta .carrito {
+    width: 77px;
+  }
+}
+.section6 .content .content1 .cta p {
+  font-size: 12px;
+}
+@media screen and (min-width: 1024px) {
+  .section6 .content .content1 .cta p {
+    font-size: 18px;
+  }
+}
+.section6 .content .content1 .cta a {
+  background-color: #000;
+  display: inline-block;
+  font-size: 20px;
+  padding: 3px 25px;
+  border-radius: 50px;
+  color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  .section6 .content .content1 .cta a {
+    font-size: 30px;
+  }
+}
+.section6 .content .content1 .cta a:hover {
+  text-decoration: none;
+  background-color: #3b3a3a;
+}
+@media screen and (min-width: 1024px) {
+  .section6 .content .content2 .mockup {
+    width: 562px;
+  }
+}
+.section6 .content .content2 .cta {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .section6 .content .content2 .cta {
+    display: none;
+  }
+}
+.section6 .content .content2 .cta .carrito,
+.section6 .content .content2 .cta .warranty {
+  margin: 35px 0 15px 0;
+  width: 60px;
+}
+.section6 .content .content2 .cta p {
+  font-size: 12px;
+}
+.section6 .content .content2 .cta a {
+  background-color: #000;
+  display: inline-block;
+  font-size: 20px;
+  padding: 3px 25px;
+  border-radius: 50px;
+  color: #fff;
+}
+.section6 .content .content2 .cta a:hover {
+  text-decoration: none;
+  background-color: #3b3a3a;
 }
