@@ -1,2 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@font-face {
+  font-family: "Black Mango";
+  src: url("./../fonts/BlackMango-Regular.woff2") format("woff2"),
+    url("./../fonts/BlackMango-Regular.woff") format("woff"),
+    url("./../fonts/BlackMango-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -75,6 +75,7 @@
             display: block;
             &:first-child {
               font-size: 50px;
+              font-weight: 700;
               @include tablet {
                 font-size: 63px;
               }
