@@ -4,8 +4,8 @@
   }
   .more-big-content {
     @include biggest-desktop {
-      max-width: 1500px;
-      margin: auto;
+      // max-width: 1500px;
+      //margin: auto;
     }
     .big-content {
       @include tablet {
