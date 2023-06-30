@@ -21,6 +21,9 @@
           width: 50%;
           padding: 110px 0 0;
         }
+        @include biggest-desktop {
+          width: 35%;
+        }
         img {
           width: 150px;
           @include tablet {
@@ -29,6 +32,14 @@
           @include tablet {
             width: 260px;
           }
+          @include biggest-desktop {
+            width: 360px;
+          }
+        }
+      }
+      .img-banner {
+        @include biggest-desktop {
+          width: 65%;
         }
       }
     }
@@ -64,12 +75,18 @@
           padding: 0 80px;
           margin-top: -80px;
         }
+        @include biggest-desktop {
+          margin-top: -280px;
+        }
         .slogan {
           color: #fff;
           text-transform: uppercase;
           text-align: end;
           @include tablet {
             order: 2;
+          }
+          @include biggest-desktop {
+            margin-top: 125px;
           }
           span {
             display: block;
@@ -82,11 +99,14 @@
               @include desktop {
                 font-size: 75px;
               }
+              @include biggest-desktop {
+                font-size: 140px;
+              }
             }
             &:last-child {
               margin-top: -30px;
               font-size: 30px;
-              font-family: "Architects Daughter", cursive;
+              font-family: "Black Mango";
               @include tablet {
                 margin-top: -35px;
                 font-size: 43px;
@@ -94,6 +114,10 @@
               @include desktop {
                 margin-top: -40px;
                 font-size: 45px;
+              }
+              @include biggest-desktop {
+                margin-top: -75px;
+                font-size: 75px;
               }
             }
           }
@@ -112,6 +136,9 @@
               }
               @include desktop {
                 width: 68px;
+              }
+              @include biggest-desktop {
+                width: 90px;
               }
             }
             button {
@@ -133,6 +160,11 @@
                 font-size: 18px;
                 padding: 7px;
               }
+              @include biggest-desktop {
+                width: 350px;
+                padding: 14px;
+                font-size: 23px;
+              }
               &:hover {
                 background-color: #a88a52;
               }
@@ -149,12 +181,18 @@
               @include tablet {
                 font-size: 17px;
               }
+              @include biggest-desktop {
+                font-size: 23px;
+              }
               a {
                 font-size: 18px;
                 color: #ffffff;
-                font-family: "Architects Daughter", cursive;
+                font-family: "Black Mango";
                 @include tablet {
                   font-size: 24px;
+                }
+                @include biggest-desktop {
+                  font-size: 35px;
                 }
               }
             }
@@ -174,6 +212,11 @@
                 width: 270px;
                 margin-top: -180px;
                 margin-left: 150px;
+              }
+              @include biggest-desktop {
+                width: 410px;
+                margin-top: -320px;
+                margin-left: 90px;
               }
             }
           }
