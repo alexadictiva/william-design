@@ -378,7 +378,7 @@ img {
 @media screen and (min-width: 768px) {
   .section1 .section1-container .content2 {
     width: 40%;
-    background-image: url(/assets/img/bg2.svg);
+    background-image: url(./../img/bg2.svg);
     padding: 40px 0;
   }
 }
@@ -533,12 +533,12 @@ img {
 
 @media screen and (min-width: 1660px) {
   .section4 {
-    background-image: url(/assets/img/bg2.svg);
+    background-image: url(./../img/bg2.svg);
     background-color: #000;
   }
 }
 .section4 .content {
-  background-image: url(/assets/img/bg4.png);
+  background-image: url(./../img/img/bg4.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -554,7 +554,7 @@ img {
 }
 @media screen and (min-width: 1024px) {
   .section4 .content {
-    background-image: url(/assets/img/bg2.svg);
+    background-image: url(./../img/bg2.svg);
     background-color: #000;
     padding: 30px 0;
   }
