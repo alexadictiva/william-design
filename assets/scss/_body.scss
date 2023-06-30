@@ -53,10 +53,10 @@
       }
     }
     .content2 {
+      background-image: url(./../img/bg2.svg);
       text-align: center;
       @include tablet {
         width: 40%;
-        background-image: url(./../img/bg2.svg);
         padding: 40px 0;
       }
 

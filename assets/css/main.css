@@ -373,12 +373,12 @@ img {
   }
 }
 .section1 .section1-container .content2 {
+  background-image: url(./../img/bg2.svg);
   text-align: center;
 }
 @media screen and (min-width: 768px) {
   .section1 .section1-container .content2 {
     width: 40%;
-    background-image: url(./../img/bg2.svg);
     padding: 40px 0;
   }
 }
