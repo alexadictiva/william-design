@@ -355,7 +355,7 @@ img {
 }
 @media screen and (min-width: 1024px) {
   .section1 .section1-container .content1 aside h2 {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 .section1 .section1-container .content1 aside p {
@@ -369,7 +369,7 @@ img {
 }
 @media screen and (min-width: 1024px) {
   .section1 .section1-container .content1 aside p {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 .section1 .section1-container .content2 {
@@ -1123,14 +1123,13 @@ footer .content2 .title-footer {
 }
 @media screen and (min-width: 1024px) {
   footer .content2 .title-footer {
-    margin: 0;
+    margin: 0 0 20px;
     font-size: 16px;
-    width: 40%;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1660px) {
   footer .content2 .title-footer {
-    width: 30%;
     font-size: 20px;
   }
 }
@@ -1142,12 +1141,7 @@ footer .content2 .rrss {
 }
 @media screen and (min-width: 1024px) {
   footer .content2 .rrss {
-    width: 60%;
-  }
-}
-@media screen and (min-width: 1660px) {
-  footer .content2 .rrss {
-    width: 70%;
+    width: 100%;
   }
 }
 footer .content2 .rrss a {
@@ -1206,9 +1200,14 @@ footer .content2 .page-link {
 }
 @media screen and (min-width: 1024px) {
   footer .content2 .page-link {
-    width: 100%;
+    width: 50%;
     margin: 10px 0 0;
     padding-left: 230px;
+  }
+}
+@media screen and (min-width: 1660px) {
+  footer .content2 .page-link {
+    width: 76%;
   }
 }
 footer .content2 .page-link a {
