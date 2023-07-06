@@ -58,6 +58,7 @@ footer {
       gap: 20px;
       @include desktop {
         width: 100%;
+        gap: 60px;
       }
 
       a {
@@ -69,7 +70,8 @@ footer {
         color: #000;
         @include desktop {
           font-size: 14px;
-          width: 100px;
+          width: max-content;
+
           &:last-child {
             width: 160px;
           }

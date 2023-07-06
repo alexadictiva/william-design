@@ -1142,6 +1142,7 @@ footer .content2 .rrss {
 @media screen and (min-width: 1024px) {
   footer .content2 .rrss {
     width: 100%;
+    gap: 60px;
   }
 }
 footer .content2 .rrss a {
@@ -1155,7 +1156,7 @@ footer .content2 .rrss a {
 @media screen and (min-width: 1024px) {
   footer .content2 .rrss a {
     font-size: 14px;
-    width: 100px;
+    width: max-content;
   }
   footer .content2 .rrss a:last-child {
     width: 160px;
