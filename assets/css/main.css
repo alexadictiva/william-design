@@ -723,20 +723,26 @@ img {
     font-size: 18px;
   }
 }
-.section6 .content .content1 .cta a {
+.section6 .content .content1 .cta button {
   background-color: #000;
   display: inline-block;
   font-size: 20px;
   padding: 3px 25px;
   border-radius: 50px;
   color: #fff;
+  border: 0;
+  outline: none;
+}
+.section6 .content .content1 .cta button:focus, .section6 .content .content1 .cta button:focus-visible {
+  border: 0;
+  outline: none;
 }
 @media screen and (min-width: 1024px) {
-  .section6 .content .content1 .cta a {
+  .section6 .content .content1 .cta button {
     font-size: 30px;
   }
 }
-.section6 .content .content1 .cta a:hover {
+.section6 .content .content1 .cta button:hover {
   text-decoration: none;
   background-color: #3b3a3a;
 }
