@@ -429,7 +429,7 @@
         top: -2px;
       }
       @include desktop {
-        height: 726px;
+        height: 666px;
       }
       @include biggest-desktop {
         top: 0;
@@ -541,27 +541,7 @@
                   }
                 }
               }
-              .accounts-autocomplete {
-                display: flex;
-                gap: 15px;
-                justify-content: start;
-                @include desktop {
-                  gap: 25px;
-                  margin-top: 25px;
-                }
-                img {
-                  &:hover {
-                    transition: all 0.2s linear;
-                    transform: scale(1.2);
-                  }
-                  @include desktop {
-                    width: 100px;
-                  }
-                  @include biggest-desktop {
-                    width: 115px;
-                  }
-                }
-              }
+
               .btn-sumit-container {
                 text-align: start;
                 padding-left: 45px;

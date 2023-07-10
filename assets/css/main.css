@@ -804,7 +804,7 @@ img {
 }
 @media screen and (min-width: 1024px) {
   .section7 div .mockup {
-    height: 726px;
+    height: 666px;
   }
 }
 @media screen and (min-width: 1660px) {
@@ -939,31 +939,6 @@ img {
     font-size: 19px;
   }
 }
-.section7 div .big-content .contents .content1 .form form .accounts-autocomplete {
-  display: flex;
-  gap: 15px;
-  justify-content: start;
-}
-@media screen and (min-width: 1024px) {
-  .section7 div .big-content .contents .content1 .form form .accounts-autocomplete {
-    gap: 25px;
-    margin-top: 25px;
-  }
-}
-.section7 div .big-content .contents .content1 .form form .accounts-autocomplete img:hover {
-  transition: all 0.2s linear;
-  transform: scale(1.2);
-}
-@media screen and (min-width: 1024px) {
-  .section7 div .big-content .contents .content1 .form form .accounts-autocomplete img {
-    width: 100px;
-  }
-}
-@media screen and (min-width: 1660px) {
-  .section7 div .big-content .contents .content1 .form form .accounts-autocomplete img {
-    width: 115px;
-  }
-}
 .section7 div .big-content .contents .content1 .form form .btn-sumit-container {
   text-align: start;
   padding-left: 45px;
@@ -1093,7 +1068,6 @@ footer {
     background-position: center bottom;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 170px;
     display: flex;
     align-items: center;
     padding: 0 50px;
