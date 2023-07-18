@@ -1049,6 +1049,33 @@ img {
   }
 }
 
+.modal {
+  background: rgba(0, 0, 0, 0.5647058824);
+  display: block !important;
+}
+.modal .modal-content {
+  background: #000000;
+  color: #ffffff;
+}
+.modal .modal-content .modal-footer {
+  border: 0;
+}
+.modal .modal-content .modal-footer button {
+  border: 0;
+  outline: none;
+  color: #aaaaaa;
+  background-color: #fff;
+  padding: 8px 45px;
+  border-radius: 4px;
+}
+.modal .modal-content .modal-footer button:hover {
+  background-color: #a3a116;
+}
+.modal .modal-content .modal-footer button:focus {
+  border: 0;
+  outline: none;
+}
+
 .form-footer {
   background-image: url(./../img/bg7.png);
   background-position: center;
